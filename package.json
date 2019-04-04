@@ -1,0 +1,37 @@
+{
+  "name": "flyo-landing-page",
+  "version": "0.0.1",
+  "description": "A front end challange",
+  "private": "true",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leroybm/flyo-landing-page.git"
+  },
+  "author": "leroybm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leroybm/flyo-landing-page/issues"
+  },
+  "homepage": "https://github.com/leroybm/flyo-landing-page#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.5.0",
+    "css-loader": "^2.1.1",
+    "node-sass": "^4.11.0",
+    "postcss-loader": "^3.0.0",
+    "postcss-scss": "^2.0.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "stylelint": "^9.10.1",
+    "stylelint-config-standard": "^18.2.0",
+    "stylelint-webpack-plugin": "^0.10.5",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
+}
