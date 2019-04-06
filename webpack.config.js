@@ -1,11 +1,15 @@
 const path = require('path');
 const StyleLintPlugin = require('stylelint-webpack-plugin');
+const webpack = require('webpack');
 
 module.exports = {
   entry: './src/js/index.js',
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist')
+  },
+  devServer: {
+    hot: true
   },
   module: {
     rules: [
@@ -21,6 +25,7 @@ module.exports = {
     ]
   },
   plugins: [
-    new StyleLintPlugin()
+    new StyleLintPlugin(),
+    new webpack.HotModuleReplacementPlugin()
   ]
 };
