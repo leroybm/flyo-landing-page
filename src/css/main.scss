@@ -1,0 +1,13 @@
+@import 'common/variables.scss';
+
+.hello {
+  color: $test;
+
+  &__test {
+    color: black;
+
+    &-test {
+      color: white;
+    }
+  }
+}
