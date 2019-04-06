@@ -3,7 +3,10 @@
 ## What is this project?
 
 This project is made more to get in touch with the current front end work process, applying the most tech I can.
+
 It's objective is not to be the best project in town, but to make me learn awesome stuff, while working with html+css (I'm currently missing doing this kind of work, so this is kind of my fix)
+
+Also, as I'm looking to learn new things, I'll try to improve this project gradually.
 
 ## Things I've learned thus far are
 
