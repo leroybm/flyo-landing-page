@@ -1,10 +1,29 @@
+# Fylo landing page?
+
+## What is this project?
+
+This project is made more to get in touch with the current front end work process, applying the most tech I can.
+
+It's objective is not to be the best project in town, but to make me learn awesome stuff, while working with html+css (I'm currently missing doing this kind of work, so this is kind of my fix)
+
+Also, as I'm looking to learn new things, I'll try to improve this project gradually.
+
+## Things I've learned thus far are
+
+* Webpack
+* Postcss
+* The existence of browserlist
+* HMR
+
+---
+
 # Frontend Mentor - Fylo landing page with dark theme and features grid
 
 ![Design preview for the Fylo landing page with dark theme and features grid challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
 
-Thanks for checking out this front-end coding challenge. 
+Thanks for checking out this front-end coding challenge.
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges allow you to improve your skills in a real-life workflow.
 
@@ -12,7 +31,7 @@ Thanks for checking out this front-end coding challenge.
 
 ## Where to find everything
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design to work to. 
+Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design to work to.
 
 The designs are in JPG static format. The reason for this, as opposed to including Sketch (or other similar design software) files, is to help train your eye when developing. This will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. This should help when you're working on real projects, but do have access to full design files.
 
