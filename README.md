@@ -13,10 +13,7 @@ Also, as I'm looking to learn new things, I'll try to improve this project gradu
 * Webpack
 * Postcss
 * The existence of browserlist
-
-## Todo
-
-* I've built sass and then runned postcss, this can be done the other way around, and is more beneficial. It will run postcss-scss parser, as well as handle stylelint and autoprefixer, then we can build sass to css :)
+* HMR
 
 ---
 

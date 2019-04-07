@@ -1,8 +1,11 @@
 const path = require('path');
 const StyleLintPlugin = require('stylelint-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 const webpack = require('webpack');
+const HtmlWebpackHarddiskPlugin = require('html-webpack-harddisk-plugin');
 
 module.exports = {
+  mode: 'development',
   entry: './src/js/index.js',
   output: {
     filename: 'bundle.js',
@@ -26,6 +29,12 @@ module.exports = {
   },
   plugins: [
     new StyleLintPlugin(),
+    new HtmlWebpackPlugin({
+      template: 'src/index.html',
+      filename: path.resolve(__dirname, 'index.html'),
+      alwaysWriteToDisk: true
+    }),
+    new HtmlWebpackHarddiskPlugin(),
     new webpack.HotModuleReplacementPlugin()
   ]
 };
