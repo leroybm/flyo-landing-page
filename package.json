@@ -4,9 +4,8 @@
   "description": "A front end challange",
   "private": "true",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack",
-    "start:dev": "webpack-dev-server --inline --hot --colors"
+    "build": "webpack --mode production --progress",
+    "dev": "webpack-dev-server --inline --hot --mode development"
   },
   "repository": {
     "type": "git",
@@ -35,8 +34,5 @@
     "webpack": "^4.29.6",
     "webpack-cli": "^3.3.0",
     "webpack-dev-server": "^3.2.1"
-  },
-  "dependencies": {
-    "lodash": "^4.17.11"
   }
 }
