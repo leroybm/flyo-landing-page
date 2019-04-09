@@ -1,0 +1,24 @@
+header {
+  padding: 3rem 0;
+  background: $introBackground;
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+
+    &__logo {
+      @extend %flex-center-center;
+    }
+
+    &__menu {
+      @extend %flex-center-center;
+
+      font-family: $fontFamilyRaleway;
+
+      li {
+        font-size: 0.9rem;
+        margin: 0 2rem;
+      }
+    }
+  }
+}

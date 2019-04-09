@@ -1,0 +1,32 @@
+/* Colors */
+
+// Layout Width
+$desktopWidth: 1440px;
+$mobileWidth: 375px;
+
+// Backgrounds
+$mainBackground: hsl(218, 28%, 13%);
+$introBackground: hsl(217, 28%, 15%);
+$footerBackground: hsl(216, 53%, 9%);
+$testimonialBackground: hsl(219, 30%, 18%);
+
+// Accents
+$cyanAccent: hsl(176, 68%, 64%);
+$blueAccent: hsl(198, 60%, 50%);
+
+// Neutrals
+$white: hsl(0, 0%, 100%);
+
+/* Typography */
+
+$fontSizeDefault: 14px;
+$fontFamilyRaleway: 'Raleway', sans-serif;
+$fontFamilyOpenSans: 'Open Sans', sans-serif;
+
+/* Partials */
+
+%flex-center-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

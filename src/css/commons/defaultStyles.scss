@@ -1,0 +1,24 @@
+// General reset
+body,
+ul,
+li,
+a {
+  all: unset;
+}
+
+body {
+  font-family: $fontFamilyOpenSans;
+  font-size: $fontSizeDefault;
+  background-color: $mainBackground;
+  color: $white;
+}
+
+a {
+  cursor: pointer;
+}
+
+.container {
+  max-width: $desktopWidth;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
