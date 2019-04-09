@@ -2,7 +2,8 @@
 body,
 ul,
 li,
-a {
+a,
+button {
   all: unset;
 }
 
@@ -13,7 +14,8 @@ body {
   color: $white;
 }
 
-a {
+a,
+button {
   cursor: pointer;
 }
 

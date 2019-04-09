@@ -1,0 +1,32 @@
+.intro {
+  background: $introBackground url("../img/bg-curvy-desktop.svg") 0% 105% no-repeat;
+  background-size: contain;
+  padding-bottom: 11rem;
+
+  &__img {
+    @extend %flex-center-center;
+  }
+
+  &__desc {
+    margin: 1rem auto;
+    max-width: 720px;
+
+    h1 {
+      font-family: $fontFamilyRaleway;
+      text-align: center;
+      font-size: 2.5rem;
+    }
+
+    p {
+      text-align: center;
+      padding: 0 3rem;
+      font-size: 1.25rem;
+    }
+
+    button {
+      @extend %default-button;
+
+      margin-top: 2rem;
+    }
+  }
+}

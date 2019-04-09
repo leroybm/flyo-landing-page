@@ -30,3 +30,14 @@ $fontFamilyOpenSans: 'Open Sans', sans-serif;
   justify-content: center;
   align-items: center;
 }
+
+%default-button {
+  display: block;
+  margin: 0 auto;
+  padding: 1rem 5rem;
+  border: none;
+  border-radius: 2rem;
+  background: linear-gradient(90deg, $cyanAccent, $blueAccent);
+  font-weight: 700;
+  font-family: $fontFamilyRaleway;
+}

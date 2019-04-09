@@ -24,6 +24,12 @@ module.exports = {
           'sass-loader',
           'postcss-loader'
         ]
+      },
+      {
+        test: /\.(png|jpg|gif|svg)$/,
+        use: [
+          'file-loader'
+        ]
       }
     ]
   },
