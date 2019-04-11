@@ -1,0 +1,34 @@
+.stay-productive {
+  padding: 5rem 0;
+
+  .container {
+    max-width: 1230px;
+  }
+
+  &__holder {
+    display: flex;
+    column-gap: 4rem;
+  }
+
+  &__desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h2 {
+      font-size: 2.5rem;
+      font-family: $fontFamilyRaleway;
+    }
+
+    p {
+      font-size: 1.05rem;
+    }
+
+    a {
+      color: $blueAccent;
+      font-size: 1.2rem;
+      border-bottom: 1px solid $blueAccent;
+      display: block;
+    }
+  }
+}
