@@ -1,0 +1,30 @@
+.features {
+  .container {
+    max-width: 880px;
+  }
+
+  &__holder {
+    $gap: 9rem;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: $gap;
+    row-gap: $gap/2;
+  }
+
+  &__box {
+    @extend %flex-center-center;
+
+    flex-direction: column;
+
+    strong {
+      margin-top: 1.5rem;
+      font-size: 1.2rem;
+      font-family: $fontFamilyRaleway;
+    }
+
+    p {
+      text-align: center;
+    }
+  }
+}
