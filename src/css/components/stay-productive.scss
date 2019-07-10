@@ -25,10 +25,24 @@
     }
 
     a {
-      color: $blueAccent;
-      font-size: 1.2rem;
-      border-bottom: 1px solid $blueAccent;
+      color: $cyanAccent;
+      font-size: 1rem;
+      border-bottom: 1px solid $cyanAccent;
       display: block;
+      width: max-content;
+      position: relative;
+      padding: 0 20px 5px;
+
+      &::after {
+        content: '';
+        background: url("../img/icon-arrow.svg");
+        display: block;
+        width: 16px;
+        height: 16px;
+        position: absolute;
+        right: 0;
+        top: 5px;
+      }
     }
   }
 }
