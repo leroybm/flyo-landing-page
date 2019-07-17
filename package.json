@@ -5,7 +5,7 @@
   "private": "true",
   "scripts": {
     "build": "webpack --mode production --progress",
-    "dev": "webpack-dev-server --inline --hot --mode development"
+    "dev": "webpack-dev-server --open"
   },
   "repository": {
     "type": "git",
@@ -19,10 +19,12 @@
   "homepage": "https://github.com/leroybm/flyo-landing-page#readme",
   "devDependencies": {
     "autoprefixer": "^9.5.0",
+    "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^2.1.1",
     "cssnano": "^4.1.10",
     "file-loader": "^3.0.1",
-    "html-webpack-harddisk-plugin": "^1.0.1",
+    "handlebars": "^4.1.2",
+    "handlebars-loader": "^1.7.1",
     "html-webpack-plugin": "^3.2.0",
     "node-sass": "^4.11.0",
     "postcss-loader": "^3.0.0",

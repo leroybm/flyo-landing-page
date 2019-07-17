@@ -1,0 +1,20 @@
+{
+	"header": {
+		"logo": "src/img/logo.svg",
+		"logo-alt": "Flyo Logo, a stack of squares besides the writting of 'Flyo', all white",
+		"menus": [
+			{
+				"name": "Features",
+				"href": "features"
+			},
+			{
+				"name": "Team",
+				"href": "team"
+			},
+			{
+				"name": "Sign In",
+				"href": "signin"
+			}
+		]
+	}
+}

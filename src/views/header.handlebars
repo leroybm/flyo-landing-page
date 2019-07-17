@@ -1,0 +1,15 @@
+<header>
+	<div class="container">
+		<nav class="nav">
+			<div class="nav__logo">
+				<img src="{{ header.logo }}" alt="{{ header.logo-alt }}">
+			</div>
+
+			<ul class="nav__menu">
+				{{#each header.menus}}
+					<li><a href="{{ href }}">{{ name }}</a></li>
+				{{/each}}
+			</ul>
+		</nav>
+	</div>
+</header>
