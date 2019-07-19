@@ -44,6 +44,12 @@ module.exports = {
 		new CleanWebpackPlugin(),
 		new StyleLintPlugin(),
 		new webpack.HotModuleReplacementPlugin(),
-		new HtmlWebpackPlugin()
+		new HtmlWebpackPlugin({
+			title: 'Frontend Mentor | Fylo landing page with dark theme and features grid',
+			meta: {
+				viewport: 'width=device-width, initial-scale=1.0',
+				charset: 'UTF-8'
+			}
+		})
 	]
 };

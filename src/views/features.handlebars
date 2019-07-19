@@ -1,33 +1,13 @@
 <section class="features">
 	<div class="container">
 		<div class="features__holder">
-			<div class="features__box">
-				<img src="src/img/icon-access-anywhere.svg" alt="A neon outline of a computer and smart phone, light blue">
-				<strong>Access your files, anywhere</strong>
-				<p>The ability to use a smartphone, tablet, or computer to access your account means your
-					files follow you everywhere.</p>
-			</div>
-
-			<div class="features__box">
-				<img src="src/img/icon-security.svg" alt="A abstract neon shield with a check mark inside it, light blue">
-				<strong>Security you can trust</strong>
-				<p>2-factor authentication and user-controlled encryption are just a couple of the security
-					features we allow to help secure your files.</p>
-			</div>
-
-			<div class="features__box">
-				<img src="src/img/icon-collaboration.svg" alt="An abstract neon clock outline, with three tiny neon outline people, light blue">
-				<strong>Real-time collaboration</strong>
-				<p>Securely share files and folders with friends, family and colleagues for live collaboration.
-					No email attachments required.</p>
-			</div>
-
-			<div class="features__box">
-				<img src="src/img/icon-any-file.svg" alt="A neon outline of a abstract folder, with a neon image and document besides it, light blue">
-				<strong>Store any type of file</strong>
-				<p>Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all
-					file types to be securely stored and shared.</p>
-			</div>
+			{{#each features }}
+				<div class="features__box">
+					<img src="{{ img }}" alt="{{ img-desc }}">
+					<strong>{{ title }}</strong>
+					<p>{{ body }}</p>
+				</div>
+			{{/each }}
 		</div>
 	</div>
 </section>
