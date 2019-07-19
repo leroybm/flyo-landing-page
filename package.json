@@ -5,7 +5,8 @@
   "private": "true",
   "scripts": {
     "build": "webpack --mode production --progress",
-    "dev": "webpack-dev-server --open"
+    "dev": "webpack-dev-server --open",
+    "lint:style": "stylelint ./src/css --fix"
   },
   "repository": {
     "type": "git",
@@ -32,7 +33,9 @@
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
     "stylelint": "^9.10.1",
+    "stylelint-config-rational-order": "^0.1.2",
     "stylelint-config-standard": "^18.2.0",
+    "stylelint-order": "^3.0.1",
     "stylelint-scss": "^3.5.4",
     "stylelint-webpack-plugin": "^0.10.5",
     "webpack": "^4.29.6",

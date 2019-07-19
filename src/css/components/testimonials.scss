@@ -1,6 +1,55 @@
 .testimonials {
-  &__holder {
-    display: flex;
-    background: white;
-  }
+	padding-top: 2.25rem;
+
+	&__holder {
+		display: flex;
+	}
+
+	&__card {
+		position: relative;
+		margin: 0 1.25rem;
+		padding: 2.5rem 1.75rem 1.75rem;
+		background: $testimonialBackground;
+		border-radius: 0.25rem;
+		box-shadow: 5px 5px 10px 1px hsla(219, 30%, 20%, 0.41);
+
+		& > p {
+			font-size: 1.25rem;
+		}
+
+		&:first-of-type::before {
+			position: absolute;
+			top: -2.25rem;
+			left: -0.5rem;
+			z-index: -1;
+			display: block;
+			width: 55px;
+			height: 45px;
+			background: url('../img/bg-quotes.png') no-repeat;
+			content: '';
+		}
+	}
+
+	&__author {
+		display: flex;
+
+		img {
+			width: 2rem;
+			height: 2rem;
+			border-radius: 100%;
+		}
+
+		p {
+			margin: 0 0.75rem;
+		}
+
+		strong {
+			display: block;
+			line-height: 1;
+		}
+
+		small {
+			margin: 0;
+		}
+	}
 }

@@ -4,23 +4,23 @@ ul,
 li,
 a,
 button {
-  all: unset;
+	all: unset;
 }
 
 body {
-  font-family: $fontFamilyOpenSans;
-  font-size: $fontSizeDefault;
-  background-color: $mainBackground;
-  color: $white;
+	color: $white;
+	font-size: $fontSizeDefault;
+	font-family: $fontFamilyOpenSans;
+	background-color: $mainBackground;
 }
 
 a,
 button {
-  cursor: pointer;
+	cursor: pointer;
 }
 
 .container {
-  max-width: $desktopWidth;
-  margin: 0 auto;
-  padding: 0 1rem;
+	max-width: $desktopWidth;
+	margin: 0 auto;
+	padding: 0 1rem;
 }

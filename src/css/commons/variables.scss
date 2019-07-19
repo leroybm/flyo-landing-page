@@ -26,18 +26,18 @@ $fontFamilyOpenSans: 'Open Sans', sans-serif;
 /* Partials */
 
 %flex-center-center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 %default-button {
-  display: block;
-  margin: 0 auto;
-  padding: 1.1rem 6.5rem;
-  border: none;
-  border-radius: 2rem;
-  background: linear-gradient(90deg, $cyanAccent, $blueAccent);
-  font-weight: 700;
-  font-family: $fontFamilyRaleway;
+	display: block;
+	margin: 0 auto;
+	padding: 1.1rem 6.5rem;
+	font-weight: 700;
+	font-family: $fontFamilyRaleway;
+	background: linear-gradient(90deg, $cyanAccent, $blueAccent);
+	border: none;
+	border-radius: 2rem;
 }

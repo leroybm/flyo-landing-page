@@ -1,28 +1,28 @@
 header {
-  padding: 4.5rem 0;
-  background: $introBackground;
+	padding: 4.5rem 0;
+	background: $introBackground;
 
-  .container {
-    max-width: 1300px;
-  }
+	.container {
+		max-width: 1300px;
+	}
 
-  .nav {
-    display: flex;
-    justify-content: space-between;
+	.nav {
+		display: flex;
+		justify-content: space-between;
 
-    &__logo {
-      @extend %flex-center-center;
-    }
+		&__logo {
+			@extend %flex-center-center;
+		}
 
-    &__menu {
-      @extend %flex-center-center;
+		&__menu {
+			@extend %flex-center-center;
 
-      font-family: $fontFamilyRaleway;
+			font-family: $fontFamilyRaleway;
 
-      li {
-        font-size: 1rem;
-        margin: 0 1.5rem;
-      }
-    }
-  }
+			li {
+				margin: 0 1.5rem;
+				font-size: 1rem;
+			}
+		}
+	}
 }
