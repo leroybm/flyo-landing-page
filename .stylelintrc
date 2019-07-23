@@ -8,9 +8,7 @@
         "stylelint-order"
     ],
     "rules": {
-        "at-rule-no-unknown": [true, {
-            "ignoreAtRules": ["extend"]
-        }],
+        "at-rule-no-unknown": null,
         "indentation": "tab"
     }
 }

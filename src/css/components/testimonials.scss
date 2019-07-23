@@ -1,5 +1,9 @@
 .testimonials {
-	padding-top: 2.25rem;
+	padding: 5rem 0;
+
+	.container {
+		max-width: 1230px;
+	}
 
 	&__holder {
 		display: flex;
@@ -8,13 +12,14 @@
 	&__card {
 		position: relative;
 		margin: 0 1.25rem;
-		padding: 2.5rem 1.75rem 1.75rem;
+		padding: 2rem 1.75rem 1.75rem;
 		background: $testimonialBackground;
 		border-radius: 0.25rem;
-		box-shadow: 5px 5px 10px 1px hsla(219, 30%, 20%, 0.41);
+
+		@include defaultBoxShadow(hsla(219, 30%, 20%, 0.41));
 
 		& > p {
-			font-size: 1.25rem;
+			font-size: 1rem;
 		}
 
 		&:first-of-type::before {
@@ -32,6 +37,7 @@
 
 	&__author {
 		display: flex;
+		padding-top: 1rem;
 
 		img {
 			width: 2rem;
