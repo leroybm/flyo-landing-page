@@ -83,7 +83,7 @@
 	],
 	"newsletter": {
 		"title": "Get early access today",
-		"desc": "It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.",
+		"body": "It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.",
 		"placeholder": "email@example.com",
 		"button": "Get Started For Free"
 	}

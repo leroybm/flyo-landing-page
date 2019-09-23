@@ -1,0 +1,43 @@
+.newsletter {
+	&__holder {
+		width: 720px;
+		margin: 0 auto;
+		padding: 2rem 4rem 3rem;
+		text-align: center;
+		background: $introBackground;
+		border-radius: 10px;
+
+		@include defaultBoxShadow(hsla(0, 100%, 0%, 0.2));
+
+		h2 {
+			font-size: 2rem;
+			font-family: $fontFamilyRaleway;
+		}
+
+		p {
+			color: #fff;
+		}
+
+		form {
+			display: flex;
+			justify-content: space-between;
+			height: 3rem;
+			margin-top: 2rem;
+
+			input {
+				flex-grow: 8;
+				margin-right: 2rem;
+				padding-left: 1rem;
+				border-width: 0;
+				border-radius: 2rem;
+			}
+
+			button {
+				flex-grow: 2;
+				padding: 0;
+
+				@extend %default-button;
+			}
+		}
+	}
+}
