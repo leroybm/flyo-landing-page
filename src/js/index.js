@@ -1,6 +1,6 @@
 import '../css/main.scss'
 import staticData from '../data/static.json'
-import mainTemplate from '../views/main.handlebars'
+import mainTemplate from '../views/main.hbs'
 
 /**
  * Injects a handlebar template to the page
