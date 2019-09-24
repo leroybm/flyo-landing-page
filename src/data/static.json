@@ -86,5 +86,66 @@
 		"body": "It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.",
 		"placeholder": "email@example.com",
 		"button": "Get Started For Free"
+	},
+	"footer": {
+		"logo": "src/img/logo.svg",
+		"logo-alt": "Flyo Logo, a stack of squares besides the writting of 'Flyo', all white",
+		"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+		"contact": [
+			{
+				"href": "+1-543-123-4567",
+				"type": "tel",
+				"icon": "phone"
+			},
+			{
+				"href": "example@fylo.com",
+				"type": "mailto",
+				"icon": "envelope"
+			}
+		],
+		"menus": [
+			{
+				"href": "about-us",
+				"name": "About Us"
+			},
+			{
+				"href": "jobs",
+				"name": "Jobs"
+			},
+			{
+				"href": "press",
+				"name": "Press"
+			},
+			{
+				"href": "blog",
+				"name": "Blog"
+			},
+			{
+				"href": "contact-us",
+				"name": "Contact Us"
+			},
+			{
+				"href": "terms",
+				"name": "Terms"
+			},
+			{
+				"href": "privacy",
+				"name": "Privacy"
+			}
+		],
+		"social": [
+			{
+				"href": "https://facebook.com/",
+				"icon": "facebook-official"
+			},
+			{
+				"href": "https://twitter.com/",
+				"icon": "twitter-square"
+			},
+			{
+				"href": "https://instagram.com/",
+				"icon": "instagram"
+			}
+		]
 	}
 }

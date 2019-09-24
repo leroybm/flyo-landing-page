@@ -1,4 +1,81 @@
-footer {
-	height: 5rem;
-	color: $footerBackground;
+.footer {
+	padding: 15rem 0 5rem;
+	background: $footerBackground;
+
+	.container {
+		max-width: 1230px;
+	}
+
+	&__container {
+		display: flex;
+		padding-top: 2rem;
+
+		& > * {
+			margin: 0 1rem;
+
+			&:first-of-type {
+				margin-left: 0;
+			}
+
+			&:last-of-type {
+				margin-right: 0;
+			}
+		}
+	}
+
+	&__description {
+		display: flex;
+		flex: 3;
+
+		p {
+			margin: 0 0 0 1rem;
+			font-size: 1rem;
+			line-height: 1.5;
+		}
+	}
+
+	&__contact {
+		flex: 2;
+
+		ul {
+			display: flex;
+			flex-direction: column;
+
+			li {
+				display: flex;
+				align-items: end;
+				margin-bottom: 0.5rem;
+			}
+		}
+
+		a {
+			margin: 0 0 0.25rem 1rem;
+		}
+	}
+
+	&__menu {
+		flex: 2;
+
+		ul {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			row-gap: 1rem;
+			font-size: 1rem;
+		}
+	}
+
+	&__social {
+		flex: 1;
+
+		ul {
+			display: flex;
+			justify-content: space-around;
+		}
+
+		i {
+			padding: 0.5rem;
+			border: 1px solid #fff;
+			border-radius: 100%;
+		}
+	}
 }
