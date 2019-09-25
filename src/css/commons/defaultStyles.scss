@@ -1,0 +1,26 @@
+// General reset
+body,
+ul,
+li,
+a,
+button {
+	all: unset;
+}
+
+body {
+	color: $white;
+	font-size: $fontSizeDefault;
+	font-family: $fontFamilyOpenSans;
+	background-color: $mainBackground;
+}
+
+a,
+button {
+	cursor: pointer;
+}
+
+.container {
+	max-width: $desktopWidth;
+	margin: 0 auto;
+	padding: 0 1rem;
+}

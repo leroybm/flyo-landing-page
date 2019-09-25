@@ -1,0 +1,18 @@
+<section class="testimonials">
+	<div class="container">
+		<div class="testimonials__holder">
+			{{#each testimonials }}
+				<div class="testimonials__card">
+					<p>{{ body }}</p>
+					<div class="testimonials__author">
+						<img src="{{ img }}" alt="{{ img-desc }}">
+						<p>
+							<strong>{{ author }}</strong>
+							<small>{{ position }}</small>
+						</p>
+					</div>
+				</div>
+			{{/each }}
+		</div>
+	</div>
+</section>

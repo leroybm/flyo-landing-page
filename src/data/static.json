@@ -1,0 +1,151 @@
+{
+	"header": {
+		"logo": "img/logo.svg",
+		"logo-alt": "Flyo Logo, a stack of squares besides the writting of 'Flyo', all white",
+		"menus": [
+			{
+				"name": "Features",
+				"href": "features"
+			},
+			{
+				"name": "Team",
+				"href": "team"
+			},
+			{
+				"name": "Sign In",
+				"href": "signin"
+			}
+		]
+	},
+	"intro": {
+		"img": "img/illustration-intro.png",
+		"img-alt": "People organizing giant files inside a giant folder, simple art.",
+		"desc-title": "All your files in one secure location, accessible anywhere",
+		"desc-body": "Fylo stores all your most important files in one secure location. Access them wherever you need, share and collaborate with friends family, and co-workers.",
+		"desc-button": "Get Started"
+	},
+	"features": [
+		{
+			"img": "img/icon-access-anywhere.svg",
+			"img-desc": "A neon outline of a computer and smart phone, light blue",
+			"title": "Access your files, anywhere",
+			"body": "The ability to use a smartphone, tablet, or computer to access your account means your files follow you everywhere."
+		},
+		{
+			"img": "img/icon-security.svg",
+			"img-desc": "A abstract neon shield with a check mark inside it, light blue",
+			"title": "Security you can trust",
+			"body": "2-factor authentication and user-controlled encryption are just a couple of the security features we allow to help secure your files."
+		},
+		{
+			"img": "img/icon-collaboration.svg",
+			"img-desc": "An abstract neon clock outline, with three tiny neon outline people, light blue",
+			"title": "Real-time collaboration",
+			"body": "Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required."
+		},
+		{
+			"img": "img/icon-any-file.svg",
+			"img-desc": "A neon outline of a abstract folder, with a neon image and document besides it, light blue",
+			"title": "Store any type of file",
+			"body": "Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all file types to be securely stored and shared."
+		}
+	],
+	"stay-productive": {
+		"img": "img/illustration-stay-productive.png",
+		"img-desc": "Three persons holding speech bubbles around an abstract target",
+		"title": "Stay productive,<br>wherever you are",
+		"body": "Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.<br> <br> Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.",
+		"link": "#how-flyo-works",
+		"link-text": "See how Fylo works"
+	},
+	"testimonials": [
+		{
+			"body": "Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.",
+			"img": "img/profile-1.jpg",
+			"img-desc": "Satish Patel - Founder & CEO, Huddle",
+			"author": "Satish Patel",
+			"position": "Founder & CEO, Huddle"
+		},
+		{
+			"body": "Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.",
+			"img": "img/profile-2.jpg",
+			"img-desc": "Bruce McKenzie - Founder & CEO, Huddle",
+			"author": "Bruce McKenzie",
+			"position": "Founder & CEO, Huddle"
+		},
+		{
+			"body": "Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.",
+			"img": "img/profile-3.jpg",
+			"img-desc": "Iva Boyd - Founder & CEO, Huddle",
+			"author": "Iva Boyd",
+			"position": "Founder & CEO, Huddle"
+		}
+	],
+	"newsletter": {
+		"title": "Get early access today",
+		"body": "It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.",
+		"placeholder": "email@example.com",
+		"button": "Get Started For Free"
+	},
+	"footer": {
+		"logo": "img/logo.svg",
+		"logo-alt": "Flyo Logo, a stack of squares besides the writting of 'Flyo', all white",
+		"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+		"contact": [
+			{
+				"href": "+1-543-123-4567",
+				"type": "tel",
+				"icon": "phone"
+			},
+			{
+				"href": "example@fylo.com",
+				"type": "mailto",
+				"icon": "envelope"
+			}
+		],
+		"menus": [
+			{
+				"href": "about-us",
+				"name": "About Us"
+			},
+			{
+				"href": "jobs",
+				"name": "Jobs"
+			},
+			{
+				"href": "press",
+				"name": "Press"
+			},
+			{
+				"href": "blog",
+				"name": "Blog"
+			},
+			{
+				"href": "contact-us",
+				"name": "Contact Us"
+			},
+			{
+				"href": "terms",
+				"name": "Terms"
+			},
+			{
+				"href": "privacy",
+				"name": "Privacy"
+			}
+		],
+		"social": [
+			{
+				"href": "https://facebook.com/",
+				"icon": "facebook-official"
+			},
+			{
+				"href": "https://twitter.com/",
+				"icon": "twitter-square"
+			},
+			{
+				"href": "https://instagram.com/",
+				"icon": "instagram"
+			}
+		]
+	}
+}

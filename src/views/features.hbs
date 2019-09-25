@@ -1,0 +1,13 @@
+<section class="features">
+	<div class="container">
+		<div class="features__holder">
+			{{#each features }}
+				<div class="features__box">
+					<img src="{{ img }}" alt="{{ img-desc }}">
+					<strong>{{ title }}</strong>
+					<p>{{ body }}</p>
+				</div>
+			{{/each }}
+		</div>
+	</div>
+</section>

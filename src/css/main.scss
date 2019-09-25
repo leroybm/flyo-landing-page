@@ -1,1 +1,12 @@
-@import 'variables.scss';
+// Commons
+@import 'commons/variables';
+@import 'commons/defaultStyles';
+
+// Components
+@import 'components/header';
+@import 'components/intro';
+@import 'components/features';
+@import 'components/stay-productive';
+@import 'components/testimonials';
+@import 'components/newsletter';
+@import 'components/footer';

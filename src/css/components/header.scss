@@ -1,0 +1,28 @@
+header {
+	padding: 4.5rem 0;
+	background: $introBackground;
+
+	.container {
+		max-width: 1300px;
+	}
+
+	.nav {
+		display: flex;
+		justify-content: space-between;
+
+		&__logo {
+			@extend %flex-center-center;
+		}
+
+		&__menu {
+			@extend %flex-center-center;
+
+			font-family: $fontFamilyRaleway;
+
+			li {
+				margin: 0 1.5rem;
+				font-size: 1rem;
+			}
+		}
+	}
+}

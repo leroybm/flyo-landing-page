@@ -1,0 +1,48 @@
+.stay-productive {
+	padding: 5rem 0;
+
+	.container {
+		max-width: 1230px;
+	}
+
+	&__holder {
+		display: flex;
+		column-gap: 4rem;
+	}
+
+	&__desc {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+
+		h2 {
+			font-size: 2.5rem;
+			font-family: $fontFamilyRaleway;
+		}
+
+		p {
+			font-size: 1.05rem;
+		}
+
+		a {
+			position: relative;
+			display: block;
+			width: max-content;
+			padding: 0 20px 5px 0;
+			color: $cyanAccent;
+			font-size: 1rem;
+			border-bottom: 1px solid $cyanAccent;
+
+			&::after {
+				position: absolute;
+				top: 5px;
+				right: 0;
+				display: block;
+				width: 16px;
+				height: 16px;
+				background: url("../img/icon-arrow.svg");
+				content: '';
+			}
+		}
+	}
+}

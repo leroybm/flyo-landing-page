@@ -1,0 +1,47 @@
+<footer class="footer">
+	<div class="container">
+        <div class="footer__logo">
+            <img src="{{ footer.logo }}" alt="{{ footer.logo-alt }}">
+        </div>
+
+        <div class="footer__container">
+            <div class="footer__description">
+                <i class="la la-map-pin la-2x"></i>
+                <p>{{ footer.body }}</p>
+            </div>
+
+            <div class="footer__contact">
+                <ul>
+                    {{#each footer.contact }}
+                        <li>
+                            <i class="la la-{{ icon }} la-2x"></i>
+                            <a href="{{ type }}:{{ href }}">{{ href }}</a>
+                        </li>
+                    {{/each }}
+                </ul>
+            </div>
+
+            <div class="footer__menu">
+                <nav>
+                    <ul>
+                        {{#each footer.menus }}
+                            <li>
+                                <a href="{{ href }}">{{ name }}</a>
+                            </li>
+                        {{/each }}
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="footer__social">
+                <ul>
+                    {{#each footer.social }}
+                        <li>
+                            <a href="{{ href }}"><i class="la la-{{ icon }}"></i></a>
+                        </li>
+                    {{/each }}
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
