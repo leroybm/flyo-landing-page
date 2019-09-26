@@ -6,7 +6,7 @@ This project is made more to get in touch with my css skills, as well as learnin
 
 ## What I've used in this project
 
-* Webpack (HMR, Stylelint, some stuff for the development environment) 
+* Webpack (HMR, Stylelint, SASS, some stuff for the development environment) 
 * Postcss (Autoprefixer)
 * Handlebars (To dynamically render the HTML using a static json)
 
