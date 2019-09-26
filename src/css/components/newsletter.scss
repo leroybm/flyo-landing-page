@@ -2,6 +2,10 @@
 	position: relative;
 	top: 7.5rem;
 
+	@include forPhoneOnly {
+		top: 2rem;
+	}
+
 	&__holder {
 		width: 720px;
 		margin: 0 auto;
@@ -12,9 +16,18 @@
 
 		@include defaultBoxShadow(hsla(0, 100%, 0%, 0.2));
 
+		@include forPhoneOnly {
+			width: auto;
+			padding: 1rem;
+		}
+
 		h2 {
 			font-size: 2rem;
 			font-family: $fontFamilyRaleway;
+
+			@include forPhoneOnly {
+				font-size: 1.25rem;
+			}
 		}
 
 		p {
@@ -27,12 +40,28 @@
 			height: 3rem;
 			margin-top: 2rem;
 
+			@include forPhoneOnly {
+				position: relative;
+				flex-direction: column;
+				height: auto;
+			}
+
 			input {
 				flex-grow: 8;
 				margin-right: 2rem;
 				padding-left: 1rem;
 				border-width: 0;
 				border-radius: 2rem;
+
+				@include forPhoneOnly {
+					$inputPadding: 1rem;
+
+					flex-grow: 1;
+					width: calc(100% - $inputPadding);
+					margin-right: 0;
+					margin-bottom: 2rem;
+					padding: 1rem 0 1rem $inputPadding;
+				}
 			}
 
 			button {
@@ -40,6 +69,13 @@
 				padding: 0;
 
 				@extend %default-button;
+
+				@include forPhoneOnly {
+					flex-grow: 1;
+					width: 100%;
+					margin-bottom: 1rem;
+					padding: 1rem 0;
+				}
 			}
 		}
 	}

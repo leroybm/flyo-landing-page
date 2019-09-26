@@ -7,6 +7,10 @@
 
 	&__holder {
 		display: flex;
+
+		@include forPhoneOnly {
+			flex-direction: column;
+		}
 	}
 
 	&__card {
@@ -17,6 +21,10 @@
 		border-radius: 0.25rem;
 
 		@include defaultBoxShadow(hsla(219, 30%, 20%, 0.41));
+
+		@include forPhoneOnly {
+			margin: 1.25rem;
+		}
 
 		& > p {
 			font-size: 1rem;

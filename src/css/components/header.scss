@@ -2,6 +2,10 @@ header {
 	padding: 4.5rem 0;
 	background: $introBackground;
 
+	@include forPhoneOnly {
+		padding: 1.5rem 0;
+	}
+
 	.container {
 		max-width: 1300px;
 	}
@@ -12,6 +16,12 @@ header {
 
 		&__logo {
 			@extend %flex-center-center;
+
+			@include forPhoneOnly {
+				img {
+					width: 93px;
+				}
+			}
 		}
 
 		&__menu {
@@ -22,6 +32,11 @@ header {
 			li {
 				margin: 0 1.5rem;
 				font-size: 1rem;
+
+				@include forPhoneOnly {
+					margin: 0 0.75rem;
+					font-size: 0.8rem;
+				}
 			}
 		}
 	}

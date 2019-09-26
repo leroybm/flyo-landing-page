@@ -20,6 +20,7 @@ $white: hsl(0, 0%, 100%);
 /* Typography */
 
 $fontSizeDefault: 14px;
+$fontWeightBold: 700;
 $fontFamilyRaleway: 'Raleway', sans-serif;
 $fontFamilyOpenSans: 'Open Sans', sans-serif;
 
@@ -44,4 +45,16 @@ $fontFamilyOpenSans: 'Open Sans', sans-serif;
 
 @mixin defaultBoxShadow($color) {
 	box-shadow: 5px 5px 5px 1px $color;
+}
+
+@mixin forPhoneOnly {
+	@media (max-width: 599px) { @content; }
+}
+
+@mixin forTabletOnly {
+	@media (min-width: 599px) and (max-width: 1365px) { @content; }
+}
+
+@mixin forDesktopOnly {
+	@media (min-width: 1366px) { @content; }
 }
