@@ -2,23 +2,40 @@
 	padding: 15rem 0 5rem;
 	background: $footerBackground;
 
+	@include forPhoneOnly {
+		padding: 7.5rem 0 2.5rem;
+	}
+
 	.container {
 		max-width: 1230px;
+	}
+
+	&__logo {
+		@include forPhoneOnly {
+			padding-left: 2rem;
+		}
 	}
 
 	&__container {
 		display: flex;
 		padding-top: 2rem;
 
-		& > * {
-			margin: 0 1rem;
+		@include forPhoneOnly {
+			flex-direction: column;
+			padding-left: 1rem;
+		}
 
-			&:first-of-type {
-				margin-left: 0;
-			}
+		@include forDesktopOnly {
+			& > * {
+				margin: 0 1rem;
 
-			&:last-of-type {
-				margin-right: 0;
+				&:first-of-type {
+					margin-left: 0;
+				}
+
+				&:last-of-type {
+					margin-right: 0;
+				}
 			}
 		}
 	}
@@ -26,6 +43,10 @@
 	&__description {
 		display: flex;
 		flex: 3;
+
+		@include forPhoneOnly {
+			margin-bottom: 1rem;
+		}
 
 		p {
 			margin: 0 0 0 1rem;
@@ -37,6 +58,10 @@
 	&__contact {
 		flex: 2;
 
+		@include forPhoneOnly {
+			margin-bottom: 2rem;
+		}
+
 		ul {
 			display: flex;
 			flex-direction: column;
@@ -45,6 +70,10 @@
 				display: flex;
 				align-items: end;
 				margin-bottom: 0.5rem;
+
+				@include forPhoneOnly {
+					margin-bottom: 1rem;
+				}
 			}
 		}
 
@@ -56,11 +85,19 @@
 	&__menu {
 		flex: 2;
 
+		@include forPhoneOnly {
+			margin-bottom: 4rem;
+		}
+
 		ul {
 			display: grid;
 			grid-template-columns: 1fr 1fr;
 			row-gap: 1rem;
 			font-size: 1rem;
+
+			@include forPhoneOnly {
+				grid-template-columns: 1fr;
+			}
 		}
 	}
 
@@ -70,12 +107,20 @@
 		ul {
 			display: flex;
 			justify-content: space-around;
+
+			@include forPhoneOnly {
+				justify-content: center;
+			}
 		}
 
 		i {
 			padding: 0.5rem;
 			border: 1px solid #fff;
 			border-radius: 100%;
+
+			@include forPhoneOnly {
+				margin: 0 0.5rem;
+			}
 		}
 	}
 }

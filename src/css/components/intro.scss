@@ -3,8 +3,20 @@
 	background: $introBackground url("../img/bg-curvy-desktop.svg") 0% 105% no-repeat;
 	background-size: contain;
 
+	@include forPhoneOnly {
+		$linearGradientBreakpoint: 56.5%;
+
+		padding-bottom: 8rem;
+		background-image: url("../img/bg-curvy-desktop.svg"), linear-gradient(0deg, $mainBackground 0%, $mainBackground, $mainBackground $linearGradientBreakpoint, $introBackground $linearGradientBreakpoint, $introBackground 100%);
+		background-position-y: 33%;
+	}
+
 	&__img {
 		@extend %flex-center-center;
+
+		@include forPhoneOnly {
+			padding: 1rem;
+		}
 	}
 
 	&__desc {
@@ -12,16 +24,27 @@
 		margin: 1rem auto;
 
 		h1 {
+			font-weight: $fontWeightBold;
 			font-size: 2.5rem;
 			font-family: $fontFamilyRaleway;
 			line-height: 1.5;
 			text-align: center;
+
+			@include forPhoneOnly {
+				padding: 0 2rem;
+				font-size: 1.5rem;
+			}
 		}
 
 		p {
 			padding: 0 3rem;
 			font-size: 1.25rem;
 			text-align: center;
+
+			@include forPhoneOnly {
+				padding: 0 1.5rem;
+				font-size: 1rem;
+			}
 		}
 
 		button {

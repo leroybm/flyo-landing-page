@@ -10,6 +10,11 @@
 		grid-template-columns: 1fr 1fr;
 		column-gap: $gap;
 		row-gap: $gap/2;
+
+		@include forPhoneOnly {
+			grid-template-columns: 1fr;
+			padding: 0 1rem;
+		}
 	}
 
 	&__box {
